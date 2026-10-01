@@ -1,17 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 // Define the structure for a node
 typedef struct Node {
 int data;
 struct Node *next;
 } Node;
- 
 // Define the structure for a Circular Linked List
 typedef struct {
 Node *head;
 } CircularLinkedList;
- 
 // Initialize the Circular Linked List
 void initCircularLinkedList(CircularLinkedList *list) {
 list->head = NULL;}
@@ -114,7 +111,6 @@ return 0;
 }
 
 OUTPUT:
-
 CircularLinkedListafteraddingelements:123
 CircularLinkedListafterremovingelement2:13
 SizeofCircularLinkedList:2
