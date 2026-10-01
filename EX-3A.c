@@ -2,13 +2,11 @@
 #include <stdlib.h>
 #define MAX 100
  // Maximum size of the stack
-
 // Stack structure definition
 struct Stack {
 int arr[MAX];
 int top;
 };
-
 // Function prototypes
 void initializeStack(struct Stack *stack);
 int isFull(struct Stack *stack);
@@ -42,7 +40,6 @@ printf("Popped element: %d\n", element);
 break;
 case 3:
 displayStack(&stack);
-
 break;
 case 4:
 exit(0);
